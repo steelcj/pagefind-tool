@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# pagefind — wrapper managed by pagefind-tool.
+# Points to the currently active version. To update, rerun the installer
+# and render a new wrapper pointing to the new version directory.
+# Do not edit the rendered copy at ~/bin/pagefind by hand.
+exec "$HOME/bin/pagefind-tool/v1.5.2/pagefind" "$@"
